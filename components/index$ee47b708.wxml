@@ -1,0 +1,8 @@
+<import src="card$73b62962" />
+<template name="index$ee47b708">
+  <view class="_div data-v-6002ce8b userlist-container" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+    <view class="_div data-v-6002ce8b user-item" wx:key="index" key="{{index}}" wx:for="{{userList}}" wx:for-index="index" wx:for-item="item">
+      <template data="{{...$root[$kk+'0-'+index], $root}}" is="card$73b62962"></template>
+    </view>
+  </view>
+</template>
